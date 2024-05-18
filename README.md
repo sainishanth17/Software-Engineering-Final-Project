@@ -1,14 +1,3 @@
-# Recorrido: Dream.Explore.Discover
-
-Two problems which motivated me to work on these project were following:
-
-- ```Lack of visualization of locations to be visted in a tour package.```
-- ```Lack of difficulty levels in tour packages.```
-- Not all tour packages are suitable for every customer, eg: tours involving hiking and trekking activities might be inconvinent to senior citizens.
-
-In this project I created an Android and an iOS application for Recorrido which is a tour package booking [website](https://github.com/logicb0mb/Recorrido_Capstone) I created. These apps provide user true cross-platform support. On a base level this project uses ```Expo``` which is a React-Native framework, majorly to solve the problem of code-maintainability since React-Native allows us to write single codebase for both android and iOS apps.
-
-This app heavily utilizes the [Recorrdio API](https://documenter.getpostman.com/view/8612734/SVtWwSzf?version=latest) which I developed while working on the [web-application](https://recorrido-shreyas.herokuapp.com/) of the same project ([Github Repo](https://github.com/logicb0mb/Recorrido_Capstone)).
 
 ## Architecture
 
@@ -21,27 +10,6 @@ This app heavily utilizes the [Recorrdio API](https://documenter.getpostman.com/
 - Each individual component can then use the global data, this way request-response cycles are reduced thus increasing performance. 
 - This availability of global data has been achieved with the help of ```useContext``` React hook.
 
-![image](https://github.com/logicb0mb/Recorrido_App/assets/45527846/c574623d-0eaf-464c-9a99-f349518fd84e)
-
-## IP Australia Patent
-
-- I filed for an innovation patent under [IP Australia](http://pericles.ipaustralia.gov.au/ols/auspat/applicationDetails.do?applicationNo=2021106333) for this project which was granted and published on ```December 2, 2021``` thus including this patent in [International Patent Classification](https://ipcpub.wipo.int/?notion=scheme&version=20120101&symbol=G06Q0050140000&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart).
-
-- IPC Mark: ```G06Q50/14 (2021.01)```
-
-- Patent Document: [Click Here](http://pericles.ipaustralia.gov.au/ols/auspat/pdfSource.do?fileQuery=%C2%8A%C2%A6%C2%9A%C2%97o%C2%96%C2%A1%C2%99X%C2%98%C2%9B%C2%9E%C2%97%C2%A0%C2%93%C2%9F%C2%97os%C2%87dbdccbheeesfdbdccdbd%60%C2%A2%C2%96%C2%98X%C2%A1%C2%A8%C2%97%C2%A4o%C2%A6%C2%9A%C2%97)
-
-
-## Deployment
-- Deployed version of the web-app can be found here: [https://recorrido-shreyas.herokuapp.com/](https://recorrido-shreyas.herokuapp.com/)
-
-- Mock User Credentials:
-Email: monica@example.com
-Password: test1234
-
-- Recorrdio API: [https://documenter.getpostman.com/view/8612734/SVtWwSzf?version=latest](https://documenter.getpostman.com/view/8612734/SVtWwSzf?version=latest)
-
-- Android and iOS Apps can be deployed using ```Expo framework's``` build service.
 
 
 ## Mobile Application Screenshots
